@@ -1,0 +1,14 @@
+db_file: "bot.db"
+bot_url: "https://t.me/pocket_test_523_bot"
+
+messages:
+  responses:
+    start: "Open an auth link:%s"
+    already_authorized: "You've already authorized"
+    saved_successfully: "The link successfully saved!"
+    unknown_command: "unknown command :("
+  errors:
+    default: "unknown error"
+    unauthorised: "You need to authorize, use command /start"
+    invalid_url: "The link is not valid, try another one"
+    unable_to_save: "The link wasn't saved, try again later"
